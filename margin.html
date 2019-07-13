@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>margin</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 800px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        h1 {
+            color: #666;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .container .six_box {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .container .six_box li {
+            margin-bottom: 30px;
+            width: 260px;
+            float: left;
+            box-shadow: 4px 8px 8px 4px rgba(0, 0, 0, 0.3);
+        }
+
+        .container .six_box .second {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .container .six_box .fifth {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .container .six_box {
+            content: '';
+            display: inline-block;
+            clear: both;
+        }
+
+        .six_box img {
+            width: 100%;
+            opacity: 0.75;
+        }
+
+        .container div {
+            margin: 16px;
+            background-color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>风景列表</h1>
+        <ul class='six_box'>
+            <li class="first">
+                <img src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景图片">
+                <div class="content">
+                    风景如画
+                </div>
+            </li>
+            <li class="second">
+                <img src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景图片">
+                <div class="content">
+                    风景如画
+                </div>
+            </li>
+            <li class="third">
+                <img src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景图片">
+                <div class="content">
+                    风景如画
+                </div>
+            </li>
+            <li class="fourth">
+                <img src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景图片">
+                <div class="content">
+                    风景如画
+                </div>
+            </li>
+            <li class="fifth">
+                <img src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景图片">
+                <div class="content">
+                    风景如画
+                </div>
+            </li>
+            <li class="sixth">
+                <img src="http://cdn.jscode.me/283a4100-10cd-4208-a3b5-4030ec03acf6" alt="风景图片">
+                <div class="content">
+                    风景如画
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+
+</html>
